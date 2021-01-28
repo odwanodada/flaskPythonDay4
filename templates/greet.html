@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <script type="text/Javascript" src="{{url_for('static',filename='myjs.js')}}"> </script>
+</head>
+<body>
+<h1>Welcome to Lifechoices</h1>
+<p>Hello {{name}} my friend</p>
+
+<image src="{{url_for('static',filename = 'pic.jpg')}}" style="width:400px;height:400px;"></image>
+
+<input type="button" onclick="myfunction()" value="Press">
+
+</body>
+
+
+</html>
